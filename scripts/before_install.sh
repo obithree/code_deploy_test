@@ -1,4 +1,4 @@
 #!/bin/bash
-/var/test
+cd /var/test
 pip3 install -r requirements.txt
 touch /tmp/before
