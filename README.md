@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/ja_jp/codedeploy/latest/userguide/codedeploy-agent-o
 ```
 DescribeInstanceStatus
 RunInstances
-pass_role 起動テンプレートで選んだIAMをec2につける権限が必要
+ec2:CreateTags　？デフォルトのRole`AWSCodeDeployRole`にはついていない
+iam:PassRole　起動テンプレートで選んだIAMをec2につける権限が必要
+pass_role 
 ```
 https://docs.aws.amazon.com/ja_jp/codedeploy/latest/userguide/getting-started-create-service-role.html
 
