@@ -3,6 +3,9 @@ os: linux
 files:
   - source: /
     destination: /var/test
+permissions:
+  - object: /var/test
+  - mode: 755 
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
